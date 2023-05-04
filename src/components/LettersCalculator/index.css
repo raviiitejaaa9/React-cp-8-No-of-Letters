@@ -1,0 +1,68 @@
+/* Write your code here. */
+
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: linear-gradient(to Right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.image {
+  width: 40%;
+  height: 40%;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  color: #219a6f;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search1 {
+  width: 300px;
+  border: 2px #ffffff solid;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: transparent;
+  height: 35px;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.head {
+  color: #ffffff;
+}
+
+.label {
+  color: #ffffff;
+}
